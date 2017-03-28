@@ -1,3 +1,30 @@
 {
-   
+   "282400512454688769": {
+      "ServerID": "282400512454688769",
+      "OwnerID": "273398014742233088",
+      "OwnerUser": "eeskaatt",
+      "RoleUpdate": 0,
+      "LastNick": 0,
+      "TimeStamp": 1490702799,
+      "Mentions": null,
+      "Users": [
+         {
+            "ID": "273398014742233088",
+            "Username": "eeskaatt",
+            "LastSeen": "2017-03-28T20:07:07.3935835+08:00",
+            "LastStamp": 1490702827,
+            "TotalMsg": 0
+         }
+      ],
+      "Messages": [
+         {
+            "ID": "296253868780814337",
+            "Author": "273398014742233088",
+            "Channel": "294150150493044736",
+            "Content": ".updateinfo",
+            "TimeStamp": 1490702827
+         }
+      ],
+      "Restricted": null
+   }
 }

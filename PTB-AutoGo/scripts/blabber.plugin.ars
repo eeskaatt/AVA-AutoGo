@@ -1,0 +1,24 @@
+[name=Blabber Mouth]
+[author=Proxy]
+[version=1.0.0]
+[killcode=--noblab]
+{del}
+{sleep:2s}Today the random baseball word: `{category:baseball}`
+{sleep:2s}The random sports word `{category:sports}`
+{sleep:2s}The random Halloween word `{category:halloween}`
+{sleep:2s}The random music instrument word `{category:instruments}`
+{sleep:5s}`Good` Now let's roll through that again.  We need to make sure we get different results.
+{sleep:2s}The random music instrument word `{category:instruments}`
+{sleep:2s}The random Halloween word `{category:halloween}`
+{sleep:2s}The random sports word `{category:sports}`
+{sleep:2s}Today the random baseball word: `{category:baseball}`
+{sleep:5s}`Good` Now let's activate `Phase 2`
+{sleep:15s}`{category:baseball}` | `{category:sports}`  `{category:halloween}` | `{category:instruments}` - {rand:0,10}
+{sleep:5s}`{category:baseball}` | `{category:sports}`  `{category:halloween}` | `{category:instruments}` - {rand:1,15}
+{sleep:5s}`{category:baseball}` | `{category:sports}`  `{category:halloween}` | `{category:instruments}` - {rand:10,55}
+{sleep:5s}`{category:baseball}` | `{category:sports}`  `{category:halloween}` | `{category:instruments}` - {rand:1,500}
+{sleep:5s}Are you happy with this trial? type `yes` to continue.
+{waitfor:yes}Alright Glad you are pleased!
+{sleep:5s}How would you like to continue this session? `runjoker` or `stop`
+{sleep:10s}{scanfor:runjoker}{goback:3}{true:{plugin:thejoker}}{false:}
+{sleep:2s}{scanfor:stop}{goback:3}{true:Alright the system is shutting down. `Have Fun`}{false:}

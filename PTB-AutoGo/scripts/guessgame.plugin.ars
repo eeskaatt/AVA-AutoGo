@@ -1,0 +1,9 @@
+[name=Guessing Game Basic]
+[author=Proxy]
+[version=1.0.0]
+[killcode=--guess]
+{sleep:5s}`Guess a Word` game has been initiated.
+{sleep:5s}You have 30 seconds to guess a number between 1 - 10  your answer needs to be like `--1` or `--10`
+{sleep:30s}{scanfor:--{rand:0,10}}{true:{grabuser} has got it right with `{rand:0,10}`}{false:Sorry you weren't able to guess the number. it was `{rand:0,10}`}
+{sleep:2s}╚═( ͡° ͜ʖ ͡°)═╝  ╚═(███)═╝  ╚═(███)═╝  .╚═(███)═╝  ..╚═(███)═╝  …╚═(███)═╝  …╚═(███)═╝  ..╚═(███)═╝  .╚═(███)═╝  ╚═(███)═╝  .╚═(███)═╝  ..╚═(███)═╝  …╚═(███)═╝  …╚═(███)═╝  …..╚(███)╝  ……╚(██)╝  ………(█)
+{sleep:2s}Thanks for playing!

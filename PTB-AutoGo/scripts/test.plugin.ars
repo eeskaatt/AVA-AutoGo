@@ -1,0 +1,21 @@
+[name=Open Wide]
+[author=Proxy]
+[version=1.0.0]
+// those three lines need to stay at lines 1, 2, 3 or you will get a syntax error.
+
+
+// Display the plugin information before running.
+```xl  plugin: {plugin:name}  author: {plugin:author}  version: {plugin:version}  ----------  with great power comes great responsibility!```
+{sleep:5s}Server prefix: `{pref}`
+
+// Blah blah blah.. :P
+{sleep:5s}Server bye message: `{bye}`
+{sleep:5s}Your current roles: ```xl  {listroles}```
+
+// About 98% of the A.R.S Keys work with the Plugin system.
+{sleep:5s}You joined this server on `{joined}`
+
+{sleep:5s}Gathering list of channels. ```xl  {channels}```
+{sleep:5s}Would you like to hear a joke?
+{sleep:5s}{joke}
+// and we are done.

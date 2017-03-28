@@ -1,0 +1,46 @@
+[name=Sky n Space]
+[author=Proxy]
+[version=1.0.0]
+// Always good to throw a little style and information in the plugin!
+// double space for line breaks.
+{sleep:3s}```ruby  Random Sky and Space images  ```
+// lets display a bunch of sky and space
+// You want to control the sleep time yourself.
+// otherwise Echo will sleep 3 seconds between each request.
+// -- time: Post 1 image every minute for 10 minutes, wait 5 minutes and do it again.
+// this plugin run time will be around 25 minutes.
+{sleep:1m}{sky}
+{sleep:1m}{space}
+{sleep:1m}{sky}
+{sleep:1m}{sky}
+{sleep:1m}{space}
+{sleep:1m}{space}
+{sleep:1m}{space}
+{sleep:1m}{sky}
+{sleep:1m}{space}
+{sleep:1m}{sky}
+{sleep:10s}`Sleeping:` Will return in 5 minutes.
+{sleep:5m}
+{sleep:1m}{sky}
+{sleep:1m}{space}
+{sleep:1m}{sky}
+{sleep:1m}{sky}
+{sleep:1m}{space}
+{sleep:1m}{space}
+{sleep:1m}{space}
+{sleep:1m}{sky}
+{sleep:1m}{space}
+{sleep:1m}{sky}
+{sleep:10s}`Sleeping:` Will return in 5 minutes.
+{sleep:5m}
+{sleep:1m}{sky}
+{sleep:1m}{space}
+{sleep:1m}{sky}
+{sleep:1m}{sky}
+{sleep:1m}{space}
+{sleep:1m}{space}
+{sleep:1m}{space}
+{sleep:1m}{sky}
+{sleep:1m}{space}
+{sleep:1m}{sky}
+{sleep:15s}Runtime complete. Thanks for having me!

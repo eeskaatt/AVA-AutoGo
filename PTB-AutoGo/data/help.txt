@@ -1,0 +1,5 @@
+```ruby
+╠═[AutoGo 0.1.023b]
+╠→library: DiscordGo
+```
+*AutoGo will be available soon to everyone <https://autogo.xtclabs.net>*

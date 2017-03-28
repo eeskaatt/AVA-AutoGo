@@ -1,0 +1,35 @@
+[name=Random Memes]
+[author=Proxy]
+[version=1.0.0]
+// those three lines need to stay at lines 1, 2, 3 or you will get a syntax error.
+// let's load this up with random memes to spam with.
+{tclear:1s}
+{sleep:3s}```ruby  plugin: Random Memes  version: {plugin:version}  creator: Proxy  ---------  2 Hours of Random Memes.```
+{sleep:5m}{meme}
+{sleep:5m}{meme}
+{sleep:5m}{meme}
+{sleep:5m}{meme}
+{sleep:5m}{meme}
+{sleep:5m}{meme}
+{sleep:5m}{meme}
+{sleep:5m}{meme}
+{sleep:5m}{meme}
+{sleep:5m}{meme}
+{sleep:5m}{meme}
+{sleep:5m}{meme}
+// 1 Hour Mark
+{sleep:15s} ```ruby  1 Hour mark has been reached. ```
+{sleep:5m}{meme}
+{sleep:5m}{meme}
+{sleep:5m}{meme}
+{sleep:5m}{meme}
+{sleep:5m}{meme}
+{sleep:5m}{meme}
+{sleep:5m}{meme}
+{sleep:5m}{meme}
+{sleep:5m}{meme}
+{sleep:5m}{meme}
+{sleep:5m}{meme}
+{sleep:5m}{meme}
+{sleep:10s}`{plugin:name}` runtime complete.  By: {plugin:author}
+// and we are done.

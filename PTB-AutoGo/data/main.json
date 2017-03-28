@@ -1,0 +1,18 @@
+{
+   "Prefix": ".",
+   "GreetMsg": "",
+   "ByeMsg": "",
+   "RoleSys": "",
+   "Owner": "",
+   "Name": "",
+   "AntiLink": false,
+   "Action": "warn",
+   "Silent": false,
+   "Active": "",
+   "BotAuto": "",
+   "BotMaster": "",
+   "AutoPerms": false,
+   "Warnings": 0,
+   "Password": "",
+   "Pulse": 0
+}
